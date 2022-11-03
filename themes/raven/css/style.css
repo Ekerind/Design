@@ -22,7 +22,6 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    background-color: #222;
 }
 
 .main {
@@ -33,11 +32,40 @@ body {
     flex: 0 0 auto;
 }
 
+div.main img {
+    float: right;
+    margin-inline: 5%;
+}
+
 /* Header */
 
 .header, .site-header {
     display: flex;
     justify-content: space-between;
+}
+
+.header {
+    background-color: rgb(51, 51, 51);
+    padding-left: 5%;
+    max-height: 20%
+}
+
+.header img {
+    max-width: 50%;
+    transform: scaleX(-1);
+}
+
+.header a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+/* Main */
+
+.main > * {
+    margin-block-start: 3rem;
+    margin-inline: auto;
+    max-width: 60%;
 }
 
 /* Title */
@@ -71,11 +99,20 @@ body {
 .footer {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #222;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    padding-block: 2px;
+    min-height: 5%;
+}
+
+.footer div {
+    margin-block: auto;
+    margin-inline: 2rem;
 }
 
 .footer a {
-    color: #222;
+    color: #ccc;
+    text-decoration: none;
 }
 
 .footer .social {

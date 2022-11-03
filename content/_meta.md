@@ -1,8 +1,11 @@
 ---
-Logo: image/leaf_256x256.png
+Logo: assets/img/raven.png
 Tagline: My portfolio.
 Social:
-    - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+    - title: Länk till Daring Fireball Markdown.
+      url: https://daringfireball.net/projects/markdown/
+      icon: star
+    - title: Länk till mitt repo på github.
+      url: https://github.com/Ekerind/Design
       icon: github
 ---
