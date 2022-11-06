@@ -1,10 +1,10 @@
 ---
-Title: Docs
+Title: PICO
 Description: Documentation that came with Pico.
 # hidden: true
 ---
 
-## Welcome to Pico
+# Welcome to Pico
 
 Congratulations, you have successfully installed [Pico][] %version%.
 %meta.description% <!-- replaced by the above Description header -->
