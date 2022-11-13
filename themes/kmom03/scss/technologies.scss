@@ -1,0 +1,89 @@
+/* technologies.scss */
+.landingpage {
+    display: grid;
+    gap: 1em 1em;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr repeat(4, 2fr);
+    grid-template-areas: 
+    'titl titl titl'
+    'java java pyth'
+    'html css pyth'
+    'php git pyth'
+    'php sqli sqli';
+}
+
+.landingpage div {
+    background-color: rgba(177, 83, 138, 0.418);
+    border-radius: 1em;
+    padding-inline: 1em;
+    min-height: 150px;
+}
+
+.landingpage h1 {
+    grid-area: titl;
+    margin: auto;
+    text-decoration: underline;
+}
+
+.landingpage h2 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.landingpage p {
+    border-top: 2px solid rgb(0, 0, 0);
+    padding-top: 0.8em;
+    margin-top: 0;
+    text-decoration: none;
+}
+
+.javascript {
+    grid-area: java;
+}
+
+.python {
+    grid-area: pyth;
+}
+
+.html {
+    grid-area: html;
+}
+
+.css {
+    grid-area: css;
+}
+
+.php {
+    grid-area: php;
+}
+
+.sqlite {
+    grid-area: sqli;
+}
+
+.git {
+    grid-area: git;
+}
+
+@media (max-width: 1150px) {
+    .landingpage {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr repeat(7, 2fr);
+        grid-template-areas: 
+        'titl'
+        'java'
+        'pyth'
+        'html'
+        'css'
+        'php'
+        'sqli'
+        'git';
+    }
+    
+    .landingpage div {
+        min-height: 250px;
+        width: 85%;
+        margin-inline: auto;
+    }
+}

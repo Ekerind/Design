@@ -1,0 +1,24 @@
+.main {
+    // border: green 5px solid;
+    max-width: 60%;
+    margin-inline: auto;
+}
+
+// .main h1 {
+//     border: red 5px solid;
+// }
+
+// .main p {
+//     border: blue 5px solid;
+// }
+
+.main img {
+    // border: yellow 5px solid;
+    float: right;
+}
+
+@media (max-width: 767px) {
+    .main {
+        max-width: 90%;
+    }
+}
