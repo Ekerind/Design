@@ -1,0 +1,21 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;0,500;0,700;1,400;1,700&family=Poppins:ital,wght@0,500;0,600;0,700;0,800;1,700;1,800&display=swap');
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables-darkmode';
+@import 'mobile-menu';
+
+@import 'darkmode';
+@import 'header';
+@import 'main';
+@import 'footer';
+@import 'blockquotes';
+@import 'code';
+@import 'technologies';
+@import 'technology';
+@import 'analysis-index';
+@import 'analysis-single';

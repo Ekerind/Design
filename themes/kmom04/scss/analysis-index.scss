@@ -1,0 +1,73 @@
+/* technologies.scss */
+.landingpage-analysis {
+    display: grid;
+    gap: 1em 1em;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr repeat(2, 2fr);
+    grid-template-areas: 
+    'titl titl titl'
+    'kmom04 kmom05 kmom06'
+    'kmom04 kmom05 kmom06';
+}
+
+.landingpage-analysis div {
+    background-color: $box-color;
+    box-shadow: 10px 10px $shadow-color;
+    border-radius: 1em;
+    padding-inline: 1em;
+    min-height: 150px;
+}
+
+.landingpage-analysis h1 {
+    grid-area: titl;
+    margin: auto;
+    text-decoration: underline;
+}
+
+.landingpage-analysis h2 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.landingpage-analysis p {
+    border-top: 2px solid $font-color;
+    padding-top: 1.5em;
+    padding-inline: 1em;
+    margin-top: 0;
+    text-decoration: none;
+}
+
+.landingpage-analysis a {
+    text-decoration: none;
+}
+
+.kmom04 {
+    grid-area: kmom04;
+}
+
+.kmom05 {
+    grid-area: kmom05;
+}
+
+.kmom06 {
+    grid-area: kmom06;
+}
+
+@media (max-width: 1150px) {
+    .landingpage-analysis {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr repeat(3, 2fr);
+        grid-template-areas: 
+        'titl'
+        'kmom04'
+        'kmom05'
+        'kmom06';
+    }
+    
+    .landingpage-analysis div {
+        min-height: 250px;
+        width: 85%;
+        margin-inline: auto;
+    }
+}

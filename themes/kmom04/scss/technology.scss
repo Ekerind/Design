@@ -1,0 +1,48 @@
+/* technology.scss */
+.technology {
+    display: grid;
+    gap: 0 4em;
+    grid-template-columns: 1fr 4fr;
+}
+
+.menu {
+    height: fit-content;
+    background-color: $box-color;
+    box-shadow: 10px 10px $shadow-color;
+    border-radius: 1em;
+    padding-inline: 1em;
+}
+
+.menu h2 {
+    text-decoration: underline;
+}
+
+.menu ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 766px) {
+    .menu {
+        display: none;
+    }
+
+    .technology {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 1060px) {
+    .language-html {
+        display: none;
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+}
