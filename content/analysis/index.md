@@ -8,18 +8,22 @@ Analys
 ==========================
 
 <div class="kmom04">
-<a href="%base_url%?analysis/sub/01_colors"><h2>Färganalys</h2></a>
-<p>Dokumentation och reflektioner kring val av färg och typografi på tre stycken, av mig, utvalda hemsidor.</p>
-<ul>
-    <li>Vilken känsla vill de förmedla?</li>
-    <li>Skulle jag ha gjort annorlunda?</li>
-</ul>
-<br>
+    <a href="%base_url%?analysis/sub/01_colors"><h2>Färganalys</h2></a>
+    <p>Dokumentation och reflektioner kring val av färg och typografi på tre stycken, av mig, utvalda hemsidor.</p>
+        <ul>
+            <li>Vilken känsla vill de förmedla?</li>
+            <li>Skulle jag ha gjort annorlunda?</li>
+        </ul>
+    <br>
 </div>
 
 <div class="kmom05">
-<a href="%base_url%?analysis/sub/02_load"><h2>Bildanalys</h2></a>
-<p>kmom05 kommer senare...</p>
+    <a href="%base_url%?analysis/sub/02_load"><h2>Laddningstid</h2></a>
+    <p>En jämförelse mellan tre olika webbplatser utifrån hur snabbt de laddar.</p>
+        <ul>
+            <li>Vilka delar tar mest plats?</li>
+            <li>Hur kan mängden data som behöver hämtas minskas?</li>
+        </ul>
 </div>
 
 <div class="kmom06">
