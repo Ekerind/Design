@@ -24,6 +24,10 @@ a img {
     filter: invert(0.7);
 }
 
+a picture img {
+    filter: none;
+}
+
 p img {
     filter: brightness(0.7);
 }

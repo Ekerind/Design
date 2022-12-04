@@ -1,5 +1,5 @@
 ---
-Logo: assets/img/raven.png
+Logo: /image/raven.png
 Tagline: Min portfölj
 Social:
     - title: Länk till Daring Fireball Markdown.
