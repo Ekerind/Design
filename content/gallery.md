@@ -1,5 +1,5 @@
 ---
-Title: GALLERI
+Title: GALLERY
 Description: Gallery
 ---
 

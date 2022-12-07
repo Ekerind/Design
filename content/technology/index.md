@@ -1,5 +1,5 @@
 ---
-Title: TECH
+Title: TECHNOLOGY
 Description: Samlingssida över olika tekniker.
 Template: technologies
 ---

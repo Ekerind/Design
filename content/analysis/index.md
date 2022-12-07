@@ -1,5 +1,5 @@
 ---
-Title: ANALYS
+Title: ANALYSIS
 Description: Samlingssida för analyser av hemsidor.
 Template: analysis-index
 ---
