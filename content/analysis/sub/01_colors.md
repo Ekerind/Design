@@ -8,7 +8,7 @@ Template: analysis-single
     <ul class="submenu">
         <li class="active"><a href="./01_colors">FÄRGANALYS</a></li>
         <li><a href="./02_load">LADDNINGSTID</a></li>
-        <li><a href="./03_design_principles">PRESTANDA &amp; TILLGÄNGLIGHET</a></li>
+        <li><a href="./03_design_principles">DESIGNPRINCIPER</a></li>
     </ul>
 </div>
 
@@ -17,6 +17,7 @@ Template: analysis-single
 I rapporten analyseras tre hemsidor vad gäller färgval och typografi. Vilken känsla försöker de få fram? Har de lyckats?
 
 ## Urval
+
 Hemsidorna som ligger till grund för rapporten är av olika karaktär. Det är en personlig blog, en företagssida och en kommunal sida. Urvalet är gjort för att kunna jämföra hur aktörer med olika syften väljer att kommunicera. Den personliga bloggen, *Underbara Clara*, valdes ut slumpmässigt från en lista över de 10 mest populära bloggarna i Sverige. Företagssidan tillhör min arbetsgivare *RISE* och valdes för att ge mig möjlighet att se på den med nya ögon. Den kommunala hemsidan som till hör *Malmö Stad* valdes för att det var den första kommunala sidan som dök upp med fler än två färger. De flesta kommunala hemsidorna var väldigt återhållsamma när det kom till färgsättning, kanske med rätta, kanske inte.
 
 ## Metod

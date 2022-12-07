@@ -53,11 +53,15 @@
     justify-content: center;
 }
 
+.nav {
+    background: linear-gradient(0.25turn, $background-color 25%, $accent-color 50%, $background-color 75%);
+}
+
 ul li a {
     text-decoration: none;
 }
 
 .active a {
-    color: $accent-color;
+    color: $link-color;
     font-weight: 700;
 }

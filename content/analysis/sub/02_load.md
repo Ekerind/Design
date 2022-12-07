@@ -8,7 +8,7 @@ Template: analysis-single
     <ul class="submenu">
         <li><a href="./01_colors">FÄRGANALYS</a></li>
         <li class="active"><a href="./02_load">LADDNINGSTID</a></li>
-        <li><a href="./03_design_principles">PRESTANDA &amp; TILLGÄNGLIGHET</a></li>
+        <li><a href="./03_design_principles">DESIGNPRINCIPER</a></li>
     </ul>
 </div>
 
@@ -17,6 +17,7 @@ Template: analysis-single
 I rapporten analyseras tre webbplatser gällande hur snabbt de laddar. Vad är det som tar längst tid? Vilken är snabbast? Hur skulle webbplatserna kunna förbättras?
 
 ## Urval
+
 Webbplatserna som ligger till grund för rapporten är av olika karaktär. Det är en personlig blog, en företagssida och en kommunal sida. Urvalet är gjort för att kunna jämföra hur aktörer med olika syften prioriterar utvecklandet av en snabbladdad webbplats. Den personliga bloggen, *Underbara Clara*, valdes ut slumpmässigt från en lista över de 10 mest populära bloggarna i Sverige. Företagssidan tillhör min arbetsgivare *RISE* och valdes för att ge mig inblick i hur den presterar. Den kommunala hemsidan som till hör *Malmö Stad* valdes för att det var den första kommunala sidan som dök upp som hade flera olika element och bilder. En ganska påklädd webbplats jämfört med många andra avskalade kommunala webbplatser.
 
 ## Metod

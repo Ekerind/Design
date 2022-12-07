@@ -93,12 +93,12 @@ Galleri
         <picture>
             <source media="(min-width: 1150px)" srcset="%base_url%/image/berries.jpg?w=350&h=250&crop-to-fit&q=60">
             <source media="(min-width: 766px)" srcset="%base_url%/image/berries.jpg?w=500&h=350&crop-to-fit&q=80">
-            <img alt="bild på en tranbär" srcset="%base_url%/image/berries.jpg?w=300&h=300&crop-to-fit&q=50">
+            <img alt="bild på tranbär" srcset="%base_url%/image/berries.jpg?w=300&h=300&crop-to-fit&q=50">
         </picture>
     </a>
 </div>
 </div>
 
 <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/KuXjwB4LzSA" frameborder="0" allowfullscreen></iframe>
+    <iframe title="But what is a convolution?" src="https://www.youtube.com/embed/KuXjwB4LzSA" frameborder="0" allowfullscreen></iframe>
 </div>

@@ -27,6 +27,11 @@ Analys
 </div>
 
 <div class="kmom06">
-<a href="%base_url%?analysis/sub/03_design_principles"><h2>Tillgänglighet & prestanda</h2></a> 
-<p>kmom06 kommer senare...</p>
+    <a href="%base_url%?analysis/sub/03_design_principles"><h2>Designprinciper</h2></a> 
+    <p>Tre personsidor granskas med fokus på designprinciper.</p>
+        <ul>
+            <li>Vilka designval har utvecklarna gjort?</li>
+            <li>Vilken känsla vill de förmedla?</li>
+            <li>Stämmer det överens med webbplatsernas tänkta syfte?</li>
+        </ul>
 </div>
