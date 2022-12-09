@@ -1,5 +1,5 @@
 ---
-Title: HEM
+Title: INDEX
 Description: This is the index page.
 ---
 
